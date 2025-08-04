@@ -1,0 +1,12 @@
+import time 
+L1=[1001,1002,1003,1004]
+L2=[2001,2002,2003,2004]
+print(L1," ",type(L1))
+print()
+print(L2," ",type(L2))
+print()
+T1=tuple(L1,L2)
+print(T1," ",type(T1))
+print()
+time.sleep(2)
+print("End of an application")
