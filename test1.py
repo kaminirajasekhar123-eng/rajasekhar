@@ -1,0 +1,18 @@
+import time
+name=(input("Enter the name:"))
+submarks1=int(input("Enter the telugu marks:"))
+submarks2=int(input("Enter the maths marks:"))
+submarks3=int(input("Enter the phy marks:"))
+avgmarks=(submarks1+submarks2+submarks3)/3
+remarks=(input("Enter the remarks"))
+print()
+print("====student_Information====")
+print("name is %s:"%name)
+print("submarks1 is %i:"%submarks1)
+print("submarks2 is %i:"%submarks2)
+print("submarks3 is %i:"%submarks3)
+print("avgmark is %f:"%avgmarks)
+print("remark is %s:"%remarks)
+print()
+time.sleep(2)
+print("Enter the application")
